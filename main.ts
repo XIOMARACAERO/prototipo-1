@@ -118,6 +118,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 let projectile: Sprite = null
 let adison: Sprite = null
+game.showLongText("esta es mi historia y soy nicol", DialogLayout.Bottom)
 adison = sprites.create(img`
     . f f f . f f f f . f f f . 
     f f f f f c c c c f f f f f 
